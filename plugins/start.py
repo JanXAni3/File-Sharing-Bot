@@ -19,11 +19,6 @@ from helper_func import subscribed, encode, decode, get_messages
 from database.database import add_user, del_user, full_userbase, present_user
 
 
-# add time im seconds for waitingwaiting before delete 
-# 1 minutes = 60, 2 minutes = 60×2=120, 5 minutes = 60×5=300
-SECONDS = int(os.getenv("SECONDS", "600"))
-
-
 
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
