@@ -17,8 +17,8 @@ DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002050337098"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002427883623"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002338377827"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002309311891"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002413966136"))
 
 
 PORT = os.environ.get("PORT", "8080")
